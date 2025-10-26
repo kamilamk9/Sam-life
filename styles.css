@@ -3,14 +3,14 @@
 =========================== */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('fondo-principal.jpeg'); /* Imagen principal */
-    background-size: cover;      /* Ocupa toda la pantalla */
-    background-position: center; /* Centrado */
+    background-image: url('https://raw.githubusercontent.com/tuusuario/mi-app/main/fondo-principal.jpg');
+    background-size: cover;      
+    background-position: center; 
     background-repeat: no-repeat;
     text-align: center;
     margin: 0;
     padding: 0;
-    color: white;                /* Texto blanco */
+    color: white;                
     position: relative;
 }
 
@@ -20,15 +20,15 @@ body::before {
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Negro semitransparente */
-    z-index: -1; /* Debajo del contenido */
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: -1;
 }
 
 /* ===========================
    FONDO SUBPÁGINAS
 =========================== */
 body.subpage {
-    background-image: url('fondo-subpaginas.jpeg'); /* Imagen de subpáginas */
+    background-image: url('https://raw.githubusercontent.com/tuusuario/mi-app/main/fondo-subpaginas.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,4 +87,3 @@ h1 {
 .regresar:hover {
     background-color: #1e7e34;
 }
-
