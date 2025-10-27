@@ -3,7 +3,7 @@
 =========================== */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('fondo-valley.jpg'); /* Tu imagen principal */
+    background-image: url('fondo-valley.jpg');
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
