@@ -121,6 +121,24 @@ h1 {
     color: #E0F7FA; /* Azul claro que combina con el neón */
     text-shadow: 0 0 4px rgba(0,255,255,0.4); /* Brillito leve */
 }
+.lista-curiosidades {
+    max-width: 700px;                  
+    margin: 25px auto;                 
+    text-align: center;                   
+    background: rgba(255, 255, 255, 0.08); 
+    padding: 20px 30px;
+    border-radius: 10px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #E0F7FA;                     /* Azul claro que combina con el neón */
+    text-shadow: 0 0 4px rgba(0,255,255,0.4);
+    list-style-type: "✨ ";              /* Cambia los puntos por un icono */
+}
+
+.lista-curiosidades li {
+    margin-bottom: 10px;                /* Espacio entre elementos */
+}
+
 
 
 
