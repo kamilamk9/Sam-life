@@ -22,5 +22,12 @@
           <img src="sam27.png" alt="Regalos neutrales" class="subpage-img"> 
       </div>
     <a href="index.html" class="btn regresar">Regresar al inicio</a>
+     <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js')
+    .then(() => console.log('Service Worker registrado'))
+    .catch(err => console.log('Error al registrar SW:', err));
+}
+</script>
 </body>
 </html>
