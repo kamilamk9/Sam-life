@@ -25,12 +25,12 @@ body:not(.subpage)::before {
 
 
 body.subpage {
-    background-color: #7EC8E3; /* Azul medio tipo cielo */
-    color: black;
+    background: linear-gradient(180deg, #001F3F, #004080); /* Azul profundo degradado */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     min-height: 100vh; /* Altura completa de la pantalla */
 }
 
@@ -109,6 +109,19 @@ h1 {
     padding: 15px;
     border-radius: 8px;
 }
+.contenido p {
+    max-width: 700px;
+    margin: 15px auto;
+    text-align: justify;
+    background: rgba(255, 255, 255, 0.08); /* Fondo translúcido sutil */
+    padding: 15px 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #E0F7FA; /* Azul claro que combina con el neón */
+    text-shadow: 0 0 4px rgba(0,255,255,0.4); /* Brillito leve */
+}
+
 
 
 }
