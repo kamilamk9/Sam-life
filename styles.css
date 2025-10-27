@@ -26,7 +26,7 @@ body:not(.subpage)::before {
 
 body.subpage {
     background-color: #7EC8E3; /* Azul medio tipo cielo */
-    color: white;
+    color: black;
     text-align: center;
     margin: 0;
     padding: 0;
