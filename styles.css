@@ -81,3 +81,18 @@ h1 {
 .regresar:hover {
     background-color: #1e7e34;
 }
+/* ===========================
+   CONTENIDO Y IMÁGENES SUBPÁGINAS
+=========================== */
+.contenido {
+    max-width: 800px; /* Mantiene el contenido centrado */
+    margin: 20px auto;
+    text-align: center; 
+}
+
+.subpage-img {
+    width: 100%;        /* Ocupa todo el ancho del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 15px 0;     /* Espacio arriba y abajo */
+}
+
