@@ -93,11 +93,12 @@ h1 {
 }
 
 .subpage-img {
-    width: 400px;       /* Tamaño fijo */
+ width: 100%;        /* Se adapta al contenedor */
+    max-width: 600px;   /* Limita el tamaño máximo */
     height: auto;       /* Mantiene la proporción */
-    border-radius: 8px;
-    margin: 15px auto;
-    display: block;
+    border-radius: 8px; 
+    margin: 15px auto;  /* 15px arriba y abajo, auto a los lados = centrado horizontal */
+    display: block;     /* Necesario para que margin auto funcione */
 }
 
 }
