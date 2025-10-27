@@ -14,11 +14,18 @@ body:not(.subpage) {
 /* Overlay solo para página principal */
 body:not(.subpage)::before {
     content: "";
-    position: fixed;
+    position: absolute; /* antes era fixed creo que ahora si saldrá el fondo en celulares */
     top: 0; left: 0;
     width: 100%; height: 100%;
     background: rgba(0, 0, 0, 0.4); 
     z-index: -1;
+}
+ /* para que corra bien en celulares  */
+@media (max-width: 768px) {
+    body:not(.subpage) {
+        background-size: cover;        /* Mantiene cobertura total */
+        background-position: center top; /* Ajusta la imagen en la parte superior */
+    }
 }
 body.subpage {
     background: linear-gradient(180deg, #001F3F, #004080); /* Azul profundo degradado */
