@@ -99,16 +99,16 @@ h1 {
     display: block;     /* Necesario para que margin auto funcione */
    
 }
-.lista-curiosidades {
-    text-align: left;       /* Para que los puntos queden bien alineados */
-    max-width: 600px;       /* No se extiende demasiado */
-    margin: 20px auto;      /* Centra la lista en la página */
-    line-height: 1.8;       /* Espacio entre líneas */
+/*.lista-curiosidades {
+    text-align: left;       
+    max-width: 600px;       
+    margin: 20px auto;      
+    line-height: 1.8;      
     font-size: 18px;        
-    background: rgba(255, 255, 255, 0.1); /* Fondo suave */
+    background: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 8px;
-}
+}*/
 .contenido p {
     max-width: 700px;
     margin: 15px auto;
