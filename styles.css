@@ -93,9 +93,12 @@ h1 {
 }
 
 .subpage-img {
-    width: 100%;        /* Ocupa todo el ancho del contenedor */
-    max-width: 600px;
-    border-radius: 8px; /* Bordes redondeados */
-    margin: 15px 0;     /* Espacio arriba y abajo */
+    width: 400px;       /* Tamaño fijo */
+    height: auto;       /* Mantiene la proporción */
+    border-radius: 8px;
+    margin: 15px auto;
+    display: block;
+}
+
 }
 
