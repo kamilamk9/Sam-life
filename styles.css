@@ -99,7 +99,19 @@ h1 {
     border-radius: 8px; 
     margin: 15px auto;  /* 15px arriba y abajo, auto a los lados = centrado horizontal */
     display: block;     /* Necesario para que margin auto funcione */
+   
 }
+.lista-curiosidades {
+    text-align: left;       /* Para que los puntos queden bien alineados */
+    max-width: 600px;       /* No se extiende demasiado */
+    margin: 20px auto;      /* Centra la lista en la página */
+    line-height: 1.8;       /* Espacio entre líneas */
+    font-size: 18px;        /* Tamaño de texto cómodo */
+    background: rgba(255, 255, 255, 0.1); /* Fondo suave opcional */
+    padding: 15px;
+    border-radius: 8px;
+}
+
 
 }
 
