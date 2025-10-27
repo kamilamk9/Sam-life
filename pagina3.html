@@ -16,5 +16,12 @@
         <p>En los días de lluvia, Sam puede ofrecerte un regalo que encontró "rondando por el fondo de un cajón": Higo chumbo, Coco, Cristal terrestre o Geoda. En las noches lluviosas, puede ofrecerte Pizza. En los días en que Sam se queda en la granja todo el día, puede ofrecerte Tortitas instantáneas, explicando que nunca aprendió a cocinar.</p>
     </div>
     <a href="index.html" class="btn regresar">Regresar al inicio</a>
+     <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js')
+    .then(() => console.log('Service Worker registrado'))
+    .catch(err => console.log('Error al registrar SW:', err));
+}
+</script>
 </body>
 </html>
