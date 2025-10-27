@@ -74,6 +74,9 @@ h1 {
     border-radius: 8px;
     font-size: 18px;
     transition: 0.3s;
+    width: 200px;          /* Todos los botones tendrán el mismo ancho */
+    text-align: center;    /* Centra el texto dentro del botón */
+
 }
 
 .btn:hover {
