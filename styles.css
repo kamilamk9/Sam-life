@@ -3,7 +3,7 @@
 =========================== */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('fondo-valley');
+    background-image: url('fondo-valley.jpg');
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
@@ -36,14 +36,7 @@ body.subpage {
     font-family: Arial, sans-serif;
 }
 
-/* Overlay para subpáginas */
-/*body.subpage::before {
-    content: "";
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: -1;*/
+
 }
 
 /* ===========================
