@@ -87,7 +87,9 @@ h1 {
 .contenido {
     max-width: 800px; /* Mantiene el contenido centrado */
     margin: 20px auto;
-    text-align: center; 
+     text-align: justify;    /* Justifica el texto para que los bordes queden alineados */
+    line-height: 1.6;       /* Espaciado entre líneas para mejor lectura */
+    padding: 0 10px; 
 }
 
 .subpage-img {
